@@ -62,7 +62,7 @@
 }
 
 .port,.signalWeg h3,.Endknoten {
-    margin-bottom: 10px; /* Abstand zum Eingabefeld */
+    margin-bottom: 20px; /* Abstand zum Eingabefeld */
     font-size: 10px;
     background-color: #ecf0f1;
 }
@@ -115,7 +115,7 @@
 .name h3 {
     margin-left: 17px;
     font-size: 8px;
-    margin-top: -45px;
+    margin-top: -65px;
 }
 
 .name input {
@@ -128,9 +128,9 @@
 
 .patchnButton{
     margin-left: 30%;
-    padding-top: 5px;
+    padding-top: 6px;
     padding-bottom: 8px;
-    margin-top: -5px;
+    margin-top: -2px;
     width: 115px;;
     box-shadow: 0;
 

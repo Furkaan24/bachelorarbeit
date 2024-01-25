@@ -179,7 +179,9 @@ function Setting({
             <input type="radio" name="patchChoice" value="true" onChange={handleRadio} checked={isPpvVisibility} />
           </div>
 
-          <button onClick={handleNeuVisualisieren}>Neu Visualisieren</button>
+          <button style={{ backgroundColor: "green", color: "white" }} onClick={handleNeuVisualisieren}>
+            Neu Visualisieren
+          </button>
         </div>
       </div>
     </Draggable>

@@ -4,7 +4,7 @@ import mouse from '../imags/mouse-pointer-2.png';
 import patch from '../imags/patch.png'
 import cable from '../imags/cable.png'
 import Draggable from "react-draggable";
-//testwerte für poiid: 22296 und 22297 cablelength 1.0
+
 function Patch() {
   const [productList, setProductList] = useState([]);
   const [poiid1, setPoiid1] = useState('');
@@ -151,11 +151,8 @@ function Patch() {
         method: 'POST',
       });
 
-      // Handle the response as needed
       const result = await response.json();
       console.log('Patchen response:', result);
-
-      // Refresh the page with the current URL
       window.location.reload();
     }
   } catch (error) {
@@ -311,7 +308,7 @@ function Patch() {
                 </div>
 
                 <button
-                  className="button-search" style={{marginLeft: "90px", marginTop: "0px"}} onClick={() => {
+                  className="button-search" style={{marginLeft: "90px", marginTop: "-30px"}} onClick={() => {
                                   handlePatchenClick();
                                 }}>
                   <img src={patch} alt="Logo" className="app-logo" style={{width: '25px', height: 'auto', marginBottom: "5px", marginRight: "5px", marginLeft: "-40px"}} />
