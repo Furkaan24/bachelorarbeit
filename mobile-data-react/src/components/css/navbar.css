@@ -1,0 +1,178 @@
+.Suche{
+    margin-left: 10px;
+}
+.Einstellung{
+    margin-left: 185px;
+}
+.QR-Code{
+    margin-left: 65px;
+}
+.Schließen{
+    margin-left: 125px;
+}
+.Objekt-info{
+    margin-left: 251px;
+}
+.Patchn{
+    margin-left: 378px;
+}
+.Signalweg{
+    margin-left: 314px;
+}
+.Kontakt{
+    margin-left: 442px;
+}
+
+
+@media (max-width: 1080px) {
+    .Suche{
+        margin-left: 10px;
+    }
+    .Einstellung{
+        margin-left: 189px;
+    }
+    .QR-Code{
+        margin-left: 67px;
+    }
+    .Schließen{
+        margin-left: 129px;
+    }
+    .Objekt-info{
+        margin-left: 253px;
+    }
+    .Patchn{
+        margin-left: 380px;
+    }
+    .Signalweg{
+        margin-left: 315px;
+    }
+    .Kontakt{
+        margin-left: 444px;
+    }
+    .Block-1::before {
+        left: 72.8%; /* Ändert die Position von ::before bei kleineren Bildschirmen */
+        height: 84px;
+      }
+
+      .Block-1::after {
+        left: 50.1%; /* Ändert die Position von ::after bei kleineren Bildschirmen */
+        height: 84px;
+      }
+  }
+
+
+  @media (max-width: 810px) {
+    .Block-1::before {
+      left: 72.0%; /* Ändert die Position von ::before bei kleineren Bildschirmen */
+    }
+
+    .Block-1::after {
+      left: 48.9%; /* Ändert die Position von ::after bei kleineren Bildschirmen */
+    }
+    .Suche{
+        margin-left: 10px;
+    }
+    .Einstellung{
+        margin-left: 172px;
+    }
+    .QR-Code{
+        margin-left: 65px;
+    }
+    .Schließen{
+        margin-left: 115px;
+    }
+    .Objekt-info{
+        margin-left: 232px;
+        padding: 0.1px;
+    }
+    .Patchn{
+        margin-left: 356px;
+    }
+    .Signalweg{
+        margin-left: 292px;
+    }
+    .Kontakt{
+        margin-left: 419px;
+    }
+  }
+
+  /*Abstand zwischen icons*/
+  @media (max-width: 810px) {
+    a {
+
+      padding: 8px 1px;
+      margin: 8px;
+
+    }
+    .app-logo-setting{
+        margin-left: -10px;
+      }
+}
+
+
+
+
+
+  @media (max-width: 1080px) {
+    a {
+
+      padding: 0;
+      margin: 2;
+
+
+    }
+    .icon-container{
+        padding-bottom: 5px;
+    }
+  }
+
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+  .nav__toggler {
+    display: none;
+  }
+  .nav__toggler div {
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: rgb(204, 204, 204);
+    transition: 0.3s ease-in;
+  }
+
+@media screen and (max-width: 768px) {
+    .nav__toggler {
+      display: block;
+      cursor: pointer;
+    }
+    .nav__menu {
+      position: fixed;
+      top: 8vh;
+      right: 0;
+      height: 93vh;
+      width: 50vw;
+      background: linear-gradient(to top, rgb(239, 243, 12), rgb(78, 77, 76), rgb(8, 8, 8));
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
+    }
+  }
+  
+  .nav__active {
+    transform: translateX(0%);
+  }
+
+  /* Toggle Icon Animation */
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }

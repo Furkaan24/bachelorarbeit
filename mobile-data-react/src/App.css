@@ -1,0 +1,167 @@
+:root {
+  --bg-color: #ffffff;
+  --dark-gray: #ffffff;
+  --light-gray: #ffffff;
+  --border-color: #ffffff;
+  --primary-color: rgb(90,100,110);
+  --secondary-color: #ecf0f1;
+}
+
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--bg-color);
+  padding: 0rem;
+  height:92vh;
+}
+@media (width: 810px) {
+  .App{
+    height: 95.4vh;
+    border-radius: 0px;
+  }
+}
+@media (width: 1080px) {
+  .App{
+    height: 93.5vh;
+    
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-gray);
+  margin-left: 10px;
+  padding: 8px 0px;
+    margin: 10px;
+  border-radius: 4px;
+  background-color: var(--light-gray);
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s; 
+  
+}
+
+a:hover {
+  background-color: #e8e8e8;
+}
+
+div {
+  margin: 5px 0;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 80px;
+  
+}
+
+button {
+  margin-top: 15px;
+  background-color: rgb(90,100,110); /* Hauptfarbe */
+  color: #FFFFFF; /* Textfarbe */
+  padding: 8px 16px; /* Polsterung um den Text */
+  border: none; /* Kein Rand */
+  border-radius: 4px; /* Abgerundete Ecken */
+  cursor: pointer; /* Handzeiger beim Überfahren */
+  transition: background-color 0.3s, transform 0.2s; /* Glatter Übergangseffekt */
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);  
+}
+
+button:hover {
+  background-color: #2c3e50; /* Dunklere Farbe beim Überfahren */
+}
+
+button:active {
+  transform: scale(0.98); /* leicht verkleinert beim Klicken */
+}
+
+.active{
+  color: rgb(84, 90, 5);
+  font-size:30px;
+}
+
+a img {
+  display: auto;  
+  margin: auto;   
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: -20px;
+  border-radius: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 7px;
+}
+
+.icon-tooltip {
+  position: absolute;
+  bottom: 100%; /* Oberhalb des Icons anzeigen */
+  left: 50%; /* Horizontale Ausrichtung zentrieren */
+  transform: translateX(-50%); /* Feinabstimmung der zentrierten Position */
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparentes Schwarz */
+  color: white;
+  font-size: 14px;
+  white-space: nowrap; /* Verhindert, dass der Tooltip umbricht */
+  opacity: 0; /* Standardmäßig unsichtbar */
+  pointer-events: none; /* Verhindert unerwünschte Mausklicks auf den Tooltip */
+  transition: opacity 0.3s; /* Glatter Übergangseffekt */
+  margin-bottom: 5px; /* Ein kleiner Abstand zwischen dem Icon und dem Tooltip */
+  z-index: 1; /* sicher stellen, dass der Tooltip über anderen Elementen angezeigt wird */ 
+}
+
+.icon-container:hover .icon-tooltip {
+  opacity: 1; /* Sichtbar machen, wenn der Benutzer über das Icon fährt */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*justify-content: space-between; /* sorgt dafür, dass die Blöcke gleichmäßig verteilt sind */
+  padding: 10px 20px; /* etwas Polsterung für die Navbar hinzugefügt */
+  background-color: var(--secondary-color);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1); /* subtiler Schatteneffekt */
+  position: relative;
+  height: 10%;
+  
+  
+  
+}
+
+.Block-1{
+  position: relative;
+  border: 5px solid var(--primary-color); /* Verwenden Sie eine Primärfarbe aus dem Farbschema */
+  padding: 20px; /* Erhöhte Polsterung */
+  margin: 0 10px; /* Einheitlicher Rand */
+  border-radius: 10px; /* Ein leicht abgerundeter Rand für einen modernen Look */
+  border-bottom: 6px solid rgb(90,100,110);
+  transition: box-shadow 0.3s; /* Übergangseffekt hinzugefügt */
+}
+
+.Block-1::before, .Block-1::after, .Block-1 > div {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5px;
+  height: 90px; /* Höhe des Strichs */
+  background-color: var(--primary-color);
+}
+
+.Block-1::before {
+  left: 49.5%; /* Abstand vom linken Rand des Blocks */
+}
+
+.Block-1::after {
+  left: 73.3%; /* In der Mitte des Blocks */
+  transform: translate(-50%, -50%); /* Zentriert den Strich horizontal und vertikal */
+}
+
+.Block-1 > div {
+  right: 10px; /* Abstand vom rechten Rand des Blocks */
+}
+
+.Block-1:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Schatteneffekt beim Überfahren */
+}
+

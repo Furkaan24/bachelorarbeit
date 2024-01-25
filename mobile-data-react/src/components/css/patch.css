@@ -1,0 +1,161 @@
+.patch-page {
+    padding-left: 1px;
+    width: 20.9%;
+    border: 0px solid rgb(90,100,110);
+    height: 50%;
+    margin-top: 4%;
+    border-radius: 8px;
+    margin-left: 14.5%;
+    margin-top: 1%;
+    background-color: #ecf0f1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.patchseiten, .kabel {
+    font-family: Arial;
+    background-color: #ecf0f1;
+}
+
+
+
+.patch-page h1 {
+    margin-bottom: -30px;
+    background-color: #ecf0f1;
+}
+
+.ports-row ,.signalWeg-row,.endknoten-row,.produkte-row {
+    display: flex; /* Setzt die Port-Container nebeneinander */
+     width: -10px;
+     background-color: #ecf0f1;
+}
+
+.port{
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+     /* Zentriert die Elemente horizontal */
+     height: 0px;
+     padding-bottom: 0px;
+     background-color: #ecf0f1;
+}
+
+.Endknoten{
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+     /* Zentriert die Elemente horizontal */
+     width: 100px;
+     max-height: 2px;
+     height: 20px;
+     background-color: #ecf0f1;
+}
+
+.signalWeg {
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+     /* Zentriert die Elemente horizontal */
+     width: 100px;
+    height: 40px;
+    background-color: #ecf0f1;
+}
+
+.port,.signalWeg h3,.Endknoten {
+    margin-bottom: 10px; /* Abstand zum Eingabefeld */
+    font-size: 10px;
+    background-color: #ecf0f1;
+}
+
+.patch-page input {
+    padding: 5px 5px; /* Innenabstand des Eingabefelds */
+    border: 2px solid #ccc; /* Graue Umrandung */
+    border-radius: 4px; /* Abgerundete Ecken */
+    width: 100px;
+    background-color: #ecf0f1;
+}
+
+.signalWeg-header {
+    display: flex;        /* Setzt die Elemente horizontal */
+    align-items: center;  /* Zentriert die Elemente vertikal */
+    margin-bottom: 0px; /* Abstand zum Eingabefeld */
+    background-color: #ecf0f1;
+}
+
+.signalWeg-header h3 {
+    margin-right: 20px; /* Abstand zum Radio-Button */
+    background-color: #ecf0f1;
+}
+
+.produkte{
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+     /* Zentriert die Elemente horizontal */
+     background-color: #ecf0f1;
+}
+
+.long-size{
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+     /* Zentriert die Elemente horizontal */
+     background-color: #ecf0f1;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+}
+
+.name{
+    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    display: flex;
+    flex-direction: column; /* Setzt die Elemente vertikal */
+    background-color: #ecf0f1;
+}
+
+.name h3 {
+    margin-left: 17px;
+    font-size: 8px;
+    margin-top: -45px;
+}
+
+.name input {
+    font-size: 11px;
+    margin-left: 14px;
+    margin-top: -5px;
+    width: 94%;
+    height: 15px;
+}
+
+.patchnButton{
+    margin-left: 30%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin-top: -5px;
+    width: 115px;;
+    box-shadow: 0;
+
+}
+
+.Länge{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@media (width: 810px) {
+    .patch-page {
+        width: 42.32%;
+        margin-left: 10%;
+        height: 35.1%;
+        margin-top: 1%;
+        margin-left: 27%;
+    }
+}
+
+@media (width: 1080px) {
+    .patch-page {
+        width: 31.4%;
+        margin-left: 22%;
+        height: 47%;
+        margin-top: 1%;
+    }
+}

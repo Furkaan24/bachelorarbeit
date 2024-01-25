@@ -1,0 +1,140 @@
+.draggable-dialog {
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #ecf0f1;
+    border: 1px solid rgb(90, 100, 110);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1000;
+}
+
+.layout, .radio-layout {
+    display: grid;
+    border: 0px solid rgb(90,100,110);
+    grid-gap: 0.5px 0px;
+    color: rgb(90,100,110);
+    padding: 0;
+    font-size: 0.9em;
+    background-color: #ecf0f1;
+    padding-left: 10px;
+    margin-left: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title1,.title2,.label{
+    background-color: #ecf0f1;
+}
+.radio-input1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio-input2{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -33px;
+
+}
+
+.radio-input3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.checkbox1,.checkbox2,.checkbox3,.checkbox4,.checkbox5,.checkbox6{
+    background-color: #ecf0f1;
+
+
+}
+.checkbox1{
+   margin-top: -20px;
+}
+.checkbox3{
+    margin-top: -27px;
+}
+.checkbox5{
+    margin-top: -26px;
+}
+.checkbox2{
+    margin-top: -20px;
+}
+.checkbox4{
+    margin-top: -27px;
+}
+.checkbox6{
+    margin-top: -26px;
+}
+
+.radio-klein,.radio-AmMauszeiger,.radio-Alle{
+    background-color: #ecf0f1;
+    font-size: 11px;
+}
+.radio-input1,.radio-input2,.radio-input3,.leer{
+    background-color: #ecf0f1;
+    margin-left: 30px;
+}
+
+.layout {
+    grid-template-areas:
+        ". title1 title2"
+        "label1 checkbox1 checkbox2"
+        "label2 checkbox3 checkbox4"
+        "label3 checkbox5 checkbox6";
+        margin-top: 10px;
+}
+
+.radio-layout {
+    grid-template-columns: auto 1fr;
+}
+
+.title1 { grid-area: title1; }
+.title2 { grid-area: title2; }
+
+
+.label1 { grid-area: label1; }
+.label2 { grid-area: label2; }
+.label3 { grid-area: label3; }
+
+.checkbox1 { grid-area: checkbox1; }
+.checkbox2 { grid-area: checkbox2; }
+.checkbox3 { grid-area: checkbox3; }
+.checkbox4 { grid-area: checkbox4; }
+.checkbox5 { grid-area: checkbox5; }
+.checkbox6 { grid-area: checkbox6; }
+
+@media (width: 810px) {
+    .layout {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .radio-layout{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .draggable-dialog {
+        width: 40vw;
+    }
+}
+@media (width: 1080px) {
+    .layout {
+        width: 25%;
+        margin-left: 10%;
+    }
+    .radio-layout{
+        width: 25%;
+        margin-left: 10%;
+    }
+    .draggable-dialog {
+        width: 40vw;
+    }
+}
+
+

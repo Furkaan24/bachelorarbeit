@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" style="background:black" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"
+><defs
+  ><style type="text/css" xml:space="preserve"
+    ><![CDATA[*{stroke-width: 120;}text {stroke-width:0;}*:hover{stroke:cyan;}text:hover{fill:cyan;}text{font-family: 'Arial';font-size: 10px;}*/]]></style
+      ><script xlink:actuate="onLoad" xlink:type="simple" xlink:show="other" type="text/javascript" xmlns:xlink="http://www.w3.org/1999/xlink"
+      ><![CDATA[function info(evt){ var url='http://localhost:8080/mobile-data-web//info?type=' + evt.currentTarget.getAttribute('class') + '&id=' + evt.currentTarget.id; window.open(url);}]]></script
+        ><script xlink:href="http://localhost:8080/mobile-data-web/js/svgpan.js" xlink:actuate="onLoad" xlink:type="simple" xlink:show="other" type="text/javascript" xmlns:xlink="http://www.w3.org/1999/xlink"
+        /><g id="usv_uv_v.dxf" display="block"
+        ><g fill="white" stroke="white"
+          ><path fill="none" d="M0 210000 L85000 210000 L85000 20000 L0 20000 L0 210000 L0 210000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M85000 10000 L0 10000 L0 20000 L85000 20000 L85000 10000 L85000 10000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M85000 0 L0 0 L0 10000 L85000 10000 L85000 0 L85000 0" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M5000 27500 L80000 27500 L80000 202500 L5000 202500 L5000 27500 L5000 27500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,37500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,37500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,47500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,47500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,132733.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,132733.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,120233.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,120233.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,107733.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,107733.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,27500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,27500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,95233.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,95233.6)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,57500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,57500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,67500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 -500 L500 500" fill-rule="evenodd"
+          /></g
+          ><g fill="rgb(255,128,0)" transform="matrix(1,0,0,1,5000,67500)" stroke="rgb(255,128,0)"
+          ><path fill="none" d="M-500 500 L500 -500" fill-rule="evenodd"
+          /></g
+        ></g
+        ><g id="usv_sich_aufn_3.dxf" display="block"
+        ><g fill="white" stroke="white"
+          ><path fill="none" d="M0 12500 L75000 12500 L75000 0 L0 0 L0 12500 L0 12500" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M7852.2998 4000 L9642.2998 4000 L9642.2998 8500 L7852.2998 8500 L7852.2998 4000 L7852.2998 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M9945.4004 4000 L11735.4004 4000 L11735.4004 8500 L9945.4004 8500 L9945.4004 4000 L9945.4004 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M12038.5 4000 L13828.5 4000 L13828.5 8500 L12038.5 8500 L12038.5 4000 L12038.5 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M14131.7002 4000 L15921.7002 4000 L15921.7002 8500 L14131.7002 8500 L14131.7002 4000 L14131.7002 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M16224.7998 4000 L18014.8008 4000 L18014.8008 8500 L16224.7998 8500 L16224.7998 4000 L16224.7998 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M18317.9004 4000 L20107.9004 4000 L20107.9004 8500 L18317.9004 8500 L18317.9004 4000 L18317.9004 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M1882.3 4000 L7252.2998 4000 L7252.2998 8500 L1882.3 8500 L1882.3 4000 L1882.3 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M20411 4000 L22201 4000 L22201 8500 L20411 8500 L20411 4000 L20411 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M22504.0996 4000 L24294.0996 4000 L24294.0996 8500 L22504.0996 8500 L22504.0996 4000 L22504.0996 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M32264.0996 4000 L34054.1016 4000 L34054.1016 8500 L32264.0996 8500 L32264.0996 4000 L32264.0996 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M34357.1992 4000 L36147.1992 4000 L36147.1992 8500 L34357.1992 8500 L34357.1992 4000 L34357.1992 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M36450.3008 4000 L38240.3008 4000 L38240.3008 8500 L36450.3008 8500 L36450.3008 4000 L36450.3008 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M38543.3984 4000 L40333.3984 4000 L40333.3984 8500 L38543.3984 8500 L38543.3984 4000 L38543.3984 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M40636.6016 4000 L42426.6016 4000 L42426.6016 8500 L40636.6016 8500 L40636.6016 4000 L40636.6016 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M42729.6992 4000 L44519.6992 4000 L44519.6992 8500 L42729.6992 8500 L42729.6992 4000 L42729.6992 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M26294.0996 4000 L31664.0996 4000 L31664.0996 8500 L26294.0996 8500 L26294.0996 4000 L26294.0996 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M44822.8008 4000 L46612.8008 4000 L46612.8008 8500 L44822.8008 8500 L44822.8008 4000 L44822.8008 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M46915.8984 4000 L48705.8984 4000 L48705.8984 8500 L46915.8984 8500 L46915.8984 4000 L46915.8984 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M56675.8984 4000 L58465.8984 4000 L58465.8984 8500 L56675.8984 8500 L56675.8984 4000 L56675.8984 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M58769 4000 L60559 4000 L60559 8500 L58769 8500 L58769 4000 L58769 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M60862.1016 4000 L62652.1016 4000 L62652.1016 8500 L60862.1016 8500 L60862.1016 4000 L60862.1016 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M62955.1992 4000 L64745.1992 4000 L64745.1992 8500 L62955.1992 8500 L62955.1992 4000 L62955.1992 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M65048.3008 4000 L66838.2969 4000 L66838.2969 8500 L65048.3008 8500 L65048.3008 4000 L65048.3008 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M67141.5 4000 L68931.5 4000 L68931.5 8500 L67141.5 8500 L67141.5 4000 L67141.5 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M50705.8984 4000 L56075.8984 4000 L56075.8984 8500 L50705.8984 8500 L50705.8984 4000 L50705.8984 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M69234.6016 4000 L71024.6016 4000 L71024.6016 8500 L69234.6016 8500 L69234.6016 4000 L69234.6016 4000" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M71327.7031 4000 L73117.7031 4000 L73117.7031 8500 L71327.7031 8500 L71327.7031 4000 L71327.7031 4000" fill-rule="evenodd"
+          /></g
+        ></g
+        ><g id="siemens_sicherung.dxf" display="block"
+        ><g fill="white" stroke="white"
+          ><path fill="none" d="M-895 4500 L895 4500 L895 0 L-895 0 L-895 4500 L-895 4500" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M-400 3100 L-400 3950 L400 3950 L400 3100" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M400 2250 L-400 2250" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M-400 3100 L-895 3100" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M400 3100 L895 3100" fill-rule="evenodd"
+          /></g
+          ><g fill="white" font-size="10px" font-family="monospace" transform="matrix(42.01,0,0,-42.01,502.7495,3601.8218)" stroke="white"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1</text
+          ></g
+          ><g fill="white" font-size="10px" font-family="monospace" transform="matrix(29.89,0,0,-29.89,512.5154,975.1473)" stroke="white"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >0</text
+          ></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M-895 -2250 L895 -2250" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M-895 6750 L895 6750" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M-895 6750 L-895 -2250" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M895 -2250 L895 6750" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M850 2915.3999 L850 2915" fill-rule="evenodd"
+          /></g
+          ><g fill="white" stroke="white"
+          ><path fill="none" d="M895 2250 L-850 2250 L-895 2250" fill-rule="evenodd"
+          /></g
+        ></g
+        ><g id="port_sk_01_b14.dxf" display="block"
+        ><g
+          ><path d="M-700 -700 L-700 700 L700 700 L700 -700 L-700 -700 L-700 -700" fill-rule="evenodd"
+          /></g
+          ><g
+          ><path d="M450 0 C450 248.5281 248.5281 450 0 450 C-248.5281 450 -450 248.5281 -450 0 C-450 -248.5281 -248.5281 -450 0 -450 C248.5281 -450 450 -248.5281 450 0 Z"
+          /></g
+          ><g
+          ><path d="M450 -54.6 L-450 -54.6" fill-rule="evenodd"
+          /></g
+          ><g
+          ><path d="M450 54.6 L-450 54.6" fill-rule="evenodd"
+          /></g
+        ></g
+      ></defs
+      ><g id="viewport" transform="scale(0.004727122251690823)"
+      ><use transform="matrix(1.0 -0.0 0.0 -1.0 2687.20703125 210000.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#usv_uv_v.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21861" xlink:show="embed"
+        ><title
+          >1_UV-BL
+EG
+UV_850_345
+Gestell
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 7687.20703125 152500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#usv_sich_aufn_3.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21862" xlink:show="embed"
+        ><title
+          >1_UV-BL-SH
+VZ_USV Sicherung Aufnahme (3er)
+Zubehör Verteiler
+</title
+        ></use
+        ><g id="21861" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 2687.20703125 210000.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(140,0,0,-140,-2840.332,-1267.3828)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL</title
+        ></g
+        ><g id="4669" class="RuleTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 2687.20703125 210000.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-weight="bold" font-family="'Arial'" transform="matrix(700,0,0,-700,7852.8071,192848.7459)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL</text
+          ></g
+          ><title
+          >Regelbeschriftung: 1_UV-BL
+SR-Schrank-Name/Beschr/0</title
+        ></g
+        ><g id="4670" class="RuleTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 2687.20703125 210000.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-weight="bold" font-family="'Arial'" transform="matrix(700,0,0,-700,36755.2461,192848.7459)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            > / </text
+          ></g
+          ><title
+          >Regelbeschriftung:  / 
+SR-Schrank-Name/Beschr/1</title
+        ></g
+        ><g id="4671" class="RuleTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 2687.20703125 210000.0)" onclick="info(evt)"
+        ><g fill="rgb(254,0,96)" font-size="10px" font-weight="bold" font-family="'Arial'" transform="matrix(700,0,0,-700,42574.6059,192848.7459)" stroke="rgb(254,0,96)"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >EG</text
+          ></g
+          ><title
+          >Regelbeschriftung: EG
+SR-Schrank-Name/Beschr/2</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 16434.52213125 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21863" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F01
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 18527.634931250002 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21864" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F02
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 20620.747831250002 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21865" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F03
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 22713.860631249998 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21866" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F04
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 24806.97353125 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21867" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F05
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 26900.08633125 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21868" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F06
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 28993.19923125 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21869" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F07
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 31086.31203125 148500.0)" onclick="info(evt)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#siemens_sicherung.dxf" xlink:type="simple" class="Instance" xlink:actuate="onLoad" id="21870" xlink:show="embed"
+        ><title
+          >1_UV-BL_1F08
+SI_Sicherungsautomat_10A_Typ_B
+Zubehör Verteiler
+</title
+        ></use
+        ><g id="21862" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 7687.20703125 152500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-3497.0568,-7324.4628)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL-SH</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL-SH</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 16434.52213125 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76820" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F01
+P1
+Zielport:
+  L1
+</title
+        ></use
+        ><g id="21863" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 16434.52213125 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F01</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F01</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 18527.634931250002 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76821" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F02
+P1
+Zielport:
+  L2
+</title
+        ></use
+        ><g id="21864" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 18527.634931250002 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F02</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F02</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 20620.747831250002 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76822" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F03
+P1
+Zielport:
+  L3
+</title
+        ></use
+        ><g id="21865" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 20620.747831250002 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F03</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F03</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 22713.860631249998 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76823" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F04
+P1
+Zielport:
+  L1
+</title
+        ></use
+        ><g id="21866" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 22713.860631249998 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F04</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F04</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 24806.97353125 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76824" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F05
+P1
+Zielport:
+  L2
+</title
+        ></use
+        ><g id="21867" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 24806.97353125 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F05</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F05</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 26900.08633125 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76825" xlink:show="embed" stroke="rgb(255, 50, 0)"
+        ><title
+          >1_UV-BL_1F06
+P1
+Zielport:
+  L3
+</title
+        ></use
+        ><g id="21868" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 26900.08633125 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F06</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F06</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 28993.19923125 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76826" xlink:show="embed" stroke="rgb(150, 255, 0)"
+        ><title
+          >1_UV-BL_1F07
+P1
+</title
+        ></use
+        ><g id="21869" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 28993.19923125 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F07</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F07</title
+        ></g
+        ><use transform="matrix(1.0 -0.0 0.0 -1.0 31086.31203125 142875.0)" fill-opacity="0" onclick="info(evt)" fill="black" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#port_sk_01_b14.dxf" xlink:type="simple" class="PortInstance" xlink:actuate="onLoad" id="76827" xlink:show="embed" stroke="rgb(150, 255, 0)"
+        ><title
+          >1_UV-BL_1F08
+P1
+</title
+        ></use
+        ><g id="21870" class="InstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 31086.31203125 148500.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(70,121.2436,121.2436,-70,-4276.3536,-8674.2446)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F08</text
+          ></g
+          ><title
+          >Instanztext: 1_UV-BL_1F08</title
+        ></g
+        ><g id="76820" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 16434.52213125 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F01</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F01</title
+        ></g
+        ><g id="76821" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 18527.634931250002 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F02</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F02</title
+        ></g
+        ><g id="76822" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 20620.747831250002 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F03</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F03</title
+        ></g
+        ><g id="76823" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 22713.860631249998 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F04</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F04</title
+        ></g
+        ><g id="76824" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 24806.97353125 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F05</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F05</title
+        ></g
+        ><g id="76825" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 26900.08633125 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F06</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F06</title
+        ></g
+        ><g id="76826" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 28993.19923125 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F07</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F07</title
+        ></g
+        ><g id="76827" class="PortInstanceTextDbObject" transform="matrix(1.0 -0.0 0.0 -1.0 31086.31203125 142875.0)" onclick="info(evt)"
+        ><g fill="yellow" font-size="10px" font-family="'Arial'" transform="matrix(30,51.9615,51.9615,-30,-1832.723,-3717.5334)" stroke="yellow"
+          ><text x="0" xml:space="preserve" y="0" stroke="none"
+            >1_UV-BL_1F08</text
+          ></g
+          ><title
+          >Instanztext[Name], 1_UV-BL_1F08</title
+        ></g
+      ></g
+    ></svg
+  >
