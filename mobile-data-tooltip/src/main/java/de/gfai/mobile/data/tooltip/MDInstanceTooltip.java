@@ -10,10 +10,6 @@ import de.gfai.infocable.database.IfcaDatabase;
 import de.gfai.infocable.model.instance.Instance;
 import java.util.Optional;
 
-/**
- *
- * @author lost
- */
 class MDInstanceTooltip extends MDAbstractTooltip<Instance>
 {
   private final Optional<String> optionalSymbolName;

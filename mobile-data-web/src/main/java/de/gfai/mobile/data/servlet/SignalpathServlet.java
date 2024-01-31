@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package de.gfai.mobile.data.servlet;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -21,10 +17,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Collection;
 
-/**
- *
- * @author buelbuel
- */
 @WebServlet(name = "SignalpathServlet", urlPatterns =
 {
   "/signalpath"

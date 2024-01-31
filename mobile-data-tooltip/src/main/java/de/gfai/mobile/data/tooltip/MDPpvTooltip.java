@@ -16,10 +16,6 @@ import de.gfai.oda.core.exception.OdErrorLogger;
 import java.sql.SQLException;
 import java.util.Optional;
 
-/**
- *
- * @author lost
- */
 class MDPpvTooltip extends MDAbstractTooltip<Ppv>
 {
   MDPpvTooltip(IfcaDatabase ifcaDatabase)

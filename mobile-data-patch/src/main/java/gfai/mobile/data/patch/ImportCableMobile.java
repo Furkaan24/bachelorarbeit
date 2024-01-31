@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package gfai.mobile.data.patch;
 
 import de.gfai.infocable.database.IfcaDatabase;
@@ -12,10 +8,6 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Objects;
 
-/**
- *
- * @author buelbuel
- */
 public class ImportCableMobile
 {
   private final IfcaDatabase ifcaDatabase;

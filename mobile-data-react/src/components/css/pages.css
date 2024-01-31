@@ -1,11 +1,3 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/*
-    Created on : 08.12.2023, 10:35:14
-    Author     : buelbuel
-*/
 
 .active-link {
   background-color: green;
@@ -157,15 +149,15 @@ th {
 .select-search option {
   font-size: 12px;
   font-weight: bold;
-  pointer-events: none; /* Make optgroup non-clickable */
+  pointer-events: none;
 }
 
 .select-search option[data-optgroup] {
-  padding-left: 10px; /* Adjust the padding as needed */
+  padding-left: 10px;
 }
 
 .select-search option[data-highlight="true"] {
-  background-color: white; /* Highlight color */
+  background-color: white;
 }
 
 .sidebar {

@@ -21,10 +21,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-/**
- *
- * @author lost
- */
 abstract class MDAbstractTooltip<T> implements Tooltip<T>, IfcaDatabaseCompound
 {
   final static String LINE_BREAK = "\n";

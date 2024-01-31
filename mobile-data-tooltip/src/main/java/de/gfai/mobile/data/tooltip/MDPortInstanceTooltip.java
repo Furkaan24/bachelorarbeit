@@ -19,10 +19,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-/**
- *
- * @author lost
- */
 class MDPortInstanceTooltip extends MDAbstractTooltip<PortInstance>
 {
   private final Optional<String> optionalSymbolName;

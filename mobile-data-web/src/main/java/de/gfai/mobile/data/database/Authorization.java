@@ -67,12 +67,6 @@ public class Authorization
     }
   }
 
-  /**
-   *
-   * @deprecated sollte über eine eigen Seite zur Auswahl von Projekt und Planung erfolgen!<br>
-   * Z.B. über ifcaDatabase.jsp
-   * @see jsp/ifcaDatabase.jsp
-   */
   @Deprecated
   private void settings() throws NamingException, SQLException
   {

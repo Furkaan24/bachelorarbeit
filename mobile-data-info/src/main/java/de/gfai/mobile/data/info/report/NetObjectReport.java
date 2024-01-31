@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.info.report;
 
 import de.gfai.core.app.reports.ReportParameter;
@@ -18,14 +14,6 @@ import net.sf.jasperreports.engine.data.JRXmlDataSource;
 import net.sf.jasperreports.engine.design.JasperDesign;
 import org.w3c.dom.NodeList;
 
-
-
-
-
-/**
- *
- * @author lost
- */
 public class NetObjectReport implements JasperReport
 {
   private final IfcaDatabase ifcaDatabase;
@@ -113,77 +101,3 @@ public class NetObjectReport implements JasperReport
     return ifcaDatabase;
   }
 }
-
-
-/*
-  public static String[] extractLinesFromJRXML_Java(String filePath, int startLine, int endLine)+
-  {
-            List<String> jrxmlLines = new ArrayList<>();
-
-            try (BufferedReader reader = new BufferedReader(new FileReader(filePath)))
-            {
-                String line;
-                int currentLine = 0;
-
-                while ((line = reader.readLine()) != null)
-                {
-                    currentLine++;
-                    if (currentLine >= startLine && currentLine <= endLine)
-                    {
-                        jrxmlLines.add(line);
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            return jrxmlLines.toArray(new String[0]);
-  }
-
-   public void someMethod()
-   {
-
-        String jrxmlFilePath = "D:\\git\\dev_8_0\\gfaisoft\\java\\jasper\\src\\main\\java\\de\\gfai\\jasper\\resources\\reports\\info_instance\\instance.jrxml";
-        int startLine = 100;
-        int endLine = 200;
-
-        String[] extractedLines = extractLinesFromJRXML(jrxmlFilePath, startLine, endLine);
-
-
-    }
-
-  public String[] extractLinesFromJRXML(String jrxmlFilePath, int startLine, int endLine)
-  {
-    try
-    {
-      //  die JRXML-Datei in ein JasperDesign-Objekt Kompilieren
-      JasperDesign jasperDesign = JRXmlLoader.load(jrxmlFilePath);
-
-      String modifiedJRXMLFilePath = "D:\\git\\dev_8_0\\gfaisoft\\java\\jasper\\src\\main\\java\\de\\gfai\\jasper\\resources\\reports\\info_instance\\instance.jrxml";
-      JRXmlWriter.writeReport(jasperDesign, modifiedJRXMLFilePath, "UTF-8");
-
-      // Rückgabe des extrahierten Inhalts als String-Array oder null, wenn nichts gefunden wurde
-      return new String[]
-      {
-      };
-    }
-    catch (Exception e)
-    {
-      e.printStackTrace();
-      return null;
-    }
-  }
-
-  public void someMethod()
-  {
-    //Instanz erstellen
-
-
-    String jrxmlFilePath = "D:\\git\\dev_8_0\\gfaisoft\\java\\jasper\\src\\main\\java\\de\\gfai\\jasper\\resources\\reports\\info_instance\\instance.jrxml";
-    int startLine = 1909;
-    int endLine = 2295;
-
-    String[] extractedLines = extractLinesFromJRXML(jrxmlFilePath, startLine, endLine);
-
-  }*/
-

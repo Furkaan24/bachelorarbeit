@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package de.gfai.mobile.data.infocable.rack.svg;
 
 import de.gfai.cafm.geom.j2d.model.J2DGroup;
@@ -85,11 +81,6 @@ public class SVGRackDocumentLoader implements PredicateDXFSymbolReference
     viewPortElement.appendChild(svgElement);
   }
 
-  /**
-   * Slotsymbole z.B. haben kein Eintrag in DXF_CELLS!
-   * Das Symbol wird schon mit der relativen Position zum Elternobjekt erzeugt!
-   * Deswegen ist nur die absolute Position des Elternobjektes wichtig!!
-   */
   private AffineTransform getParentAffineTransform(J2DNode j2DNode)
   {
     return Optional.ofNullable(j2DNode.getSceneGraphParent())
@@ -111,7 +102,6 @@ public class SVGRackDocumentLoader implements PredicateDXFSymbolReference
 
     tx.getMatrix(flatmatrix);
 
-    // Y-Koordinaten spiegeln (Infocable [0,0] unten links, SVG [0,0] oben rechts
     if (flatmatrix[5] == 0)
       flatmatrix[5] = dY;
     else

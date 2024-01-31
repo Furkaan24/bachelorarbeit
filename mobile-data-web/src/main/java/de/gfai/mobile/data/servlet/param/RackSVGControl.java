@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package de.gfai.mobile.data.servlet.param;
 
 import de.gfai.cafm.geom.j2d.model.properties.Graphics2DPaintable;
@@ -23,10 +19,6 @@ import org.apache.batik.util.SVGConstants;
 import org.w3c.dom.CDATASection;
 import org.w3c.dom.Element;
 
-/**
- *
- * @author lost
- */
 public class RackSVGControl implements SVGControl
 {
   private static final String ON_CLICK_JS = "info(evt)";

@@ -21,10 +21,6 @@ import de.gfai.infocable.ui.util.text.IfcaModelSupport;
 import de.gfai.oda.core.exception.OdErrorLogger;
 import java.sql.SQLException;
 
-/**
- *
- * @author lost
- */
 class MDTextObjectTooltip extends MDAbstractTooltip<TextDbObject>
 {
   MDTextObjectTooltip(IfcaDatabase ifcaDatabase)

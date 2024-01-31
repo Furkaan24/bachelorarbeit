@@ -24,10 +24,6 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-/**
- *
- * @author lost
- */
 class J2DTextLoader implements IfcaDatabaseCompound
 {
   private final IfcaDatabase ifcaDatabase;

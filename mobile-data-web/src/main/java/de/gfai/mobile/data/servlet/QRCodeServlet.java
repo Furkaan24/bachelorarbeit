@@ -1,10 +1,5 @@
 package de.gfai.mobile.data.servlet;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
-
 import com.google.zxing.WriterException;
 import de.gfai.mobile.data.qrc.QRCodeGenerator;
 import de.gfai.mobile.data.servlet.param.ServletRequestParameter;
@@ -20,23 +15,11 @@ import java.io.UnsupportedEncodingException;
 import java.util.Optional;
 import javax.imageio.ImageIO;
 
-/**
- *
- * @author lost
- */
 public class QRCodeServlet extends HttpServlet implements ServletRequestParameter
 {
   private static final long serialVersionUID = -4407157075651189880L;
   private static final int STD_QRCODE_SIZE = 200;
 
-  /**
-   * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
-   *
-   * @param httpServletRequest servlet request
-   * @param httpServletResponse servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
   protected void processRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse)
   throws ServletException, IOException
   {
@@ -91,44 +74,22 @@ public class QRCodeServlet extends HttpServlet implements ServletRequestParamete
                    .orElse(STD_QRCODE_SIZE);
   }
 
-  // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-  /**
-   * Handles the HTTP <code>GET</code> method.
-   *
-   * @param request servlet request
-   * @param response servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
   {
     processRequest(request, response);
   }
 
-  /**
-   * Handles the HTTP <code>POST</code> method.
-   *
-   * @param httpServletRequest servlet request
-   * @param httpServletResponse servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
   @Override
   protected void doPost(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException
   {
     processRequest(httpServletRequest, httpServletResponse);
   }
 
-  /**
-   * Returns a short description of the servlet.
-   *
-   * @return a String containing servlet description
-   */
   @Override
   public String getServletInfo()
   {
     return "Short description";
-  }// </editor-fold>
+  }
 
 }

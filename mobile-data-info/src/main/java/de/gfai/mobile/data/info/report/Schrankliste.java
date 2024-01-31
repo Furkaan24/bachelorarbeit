@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.info.report;
 
 import de.gfai.core.app.reports.ReportParameter;
@@ -16,10 +12,6 @@ import de.gfai.jasper.resources.util.ReportUtil;
 import java.util.Objects;
 import net.sf.jasperreports.engine.JasperPrint;
 
-/**
- *
- * @author lost
- */
 public class Schrankliste implements JasperReport
 {
   private static final ReportOption<String> REPORT_OPTION =  new ReportOptionAdapter<>("", null, "", "Komplett");

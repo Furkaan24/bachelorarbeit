@@ -68,14 +68,7 @@ final class J2DPpvLoader
     String sql = "select PPV_ID, PPV_NAME, PPV_TYP, "
                + "       POI_ID_1, PT_ID_1, PR_ID_1,"
                + "       POI_ID_2, PT_ID_2, PR_ID_2 "
-               + "from INFOCABLE.PPV~ "
-               + "where POI_ID_1 in (%s) "
-               + "union "
-               + "select PPV_ID, PPV_NAME, PPV_TYP, "
-               + "       POI_ID_1, PT_ID_1, PR_ID_1,"
-               + "       POI_ID_2, PT_ID_2, PR_ID_2 "
-               + "from INFOCABLE.PPV~ "
-               + "where POI_ID_2 in (%s)";
+               + "";
     String szPoiIds = getSzPoiIds(j2DPortInstances);
 
     sql = String.format(db.prepareSql(sql), szPoiIds, szPoiIds);

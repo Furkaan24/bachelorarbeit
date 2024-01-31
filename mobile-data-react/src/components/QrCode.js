@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './css/qrCode.css';
 import './css/pages.css';
-import qrcode from '../imags/qr-code.png'
 
 function QrCode() {
     const [qrSize, setQrSize] = useState(200);

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.servlet.param;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -10,10 +6,6 @@ import jakarta.ws.rs.core.Response;
 import java.util.Objects;
 import java.util.function.Function;
 
-/**
- *
- * @author lost
- */
 public interface ServletRequestParameter
 {
 

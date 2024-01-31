@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import '../components/css/pages.css';
-import search from '../imags/search.png'
 import LoadingOverlay from './LoadingOverlay';
 
 function Search() {

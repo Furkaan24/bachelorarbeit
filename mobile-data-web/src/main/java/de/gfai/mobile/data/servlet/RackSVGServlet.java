@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package de.gfai.mobile.data.servlet;
 
 import de.gfai.mobile.data.infocable.rack.SVGRackDocumentFactory;
@@ -18,24 +14,12 @@ import java.util.function.Consumer;
 import org.apache.batik.svggen.SVGGraphics2D;
 import org.w3c.dom.svg.SVGDocument;
 
-/**
- *
- * @author lost
- */
 public class RackSVGServlet extends HttpServlet implements ServletRequestParameter
 {
   private static final long serialVersionUID = -2513754139311684332L;
 
   private Consumer<String> portIdCallback;
 
-  /**
-   * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
-   *
-   * @param httpServletRequest servlet request
-   * @param httpServletResponse servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
     protected void processRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException
     {
       httpServletResponse.setContentType("image/svg+xml");
@@ -77,11 +61,9 @@ public class RackSVGServlet extends HttpServlet implements ServletRequestParamet
       String ruleTextPortParam = httpServletRequest.getParameter("ruletextport");
       boolean isRuleTextPort = ruleTextPortParam == null || Boolean.valueOf(ruleTextPortParam);
 
-    // Ensure portIdCallback is initialized before calling createSVGRackDocument
     portIdCallback = portId ->
     {
-      // Handle the portId as needed
-      // You can add your logic here
+
       System.out.println("Port ID clicked on servlet: " + portId);
     };
 
@@ -128,15 +110,6 @@ public class RackSVGServlet extends HttpServlet implements ServletRequestParamet
     return url.replaceAll("svg$", "");
   }
 
-  // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
-  /**
-   * Handles the HTTP <code>GET</code> method.
-   *
-   * @param request servlet request
-   * @param response servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response)
   throws ServletException, IOException
@@ -144,14 +117,6 @@ public class RackSVGServlet extends HttpServlet implements ServletRequestParamet
     processRequest(request, response);
   }
 
-  /**
-   * Handles the HTTP <code>POST</code> method.
-   *
-   * @param request servlet request
-   * @param response servlet response
-   * @throws ServletException if a servlet-specific error occurs
-   * @throws IOException if an I/O error occurs
-   */
   @Override
   protected void doPost(HttpServletRequest request, HttpServletResponse response)
   throws ServletException, IOException
@@ -159,15 +124,10 @@ public class RackSVGServlet extends HttpServlet implements ServletRequestParamet
     processRequest(request, response);
   }
 
-  /**
-   * Returns a short description of the servlet.
-   *
-   * @return a String containing servlet description
-   */
   @Override
   public String getServletInfo()
   {
     return "Short description";
-  }// </editor-fold>
+  }
 
 }

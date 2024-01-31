@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package de.gfai.mobile.data.servlet;
 
 import de.gfai.infocable.database.IfcaDatabase;
@@ -14,11 +10,6 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
-/**
- *
- * @author buelbuel
- */
 @WebServlet(name = "AuthorizationServlet", urlPatterns =
 {
   "/connect"

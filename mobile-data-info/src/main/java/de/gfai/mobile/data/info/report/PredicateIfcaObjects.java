@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.info.report;
 
 import de.gfai.infocable.geom.app.model.text.free.InstanceFreeTextDbObject;
@@ -16,10 +12,6 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.function.Predicate;
 
-/**
- *
- * @author lost
- */
 public interface PredicateIfcaObjects
 {
   static final Predicate<String> PREDICATE_RACK = className -> Objects.equals(Rack.class.getSimpleName(), className);

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Singleton.java to edit this template
- */
 package de.gfai.mobile.data.context;
 
 import java.util.Objects;
@@ -9,10 +5,6 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-/**
- *
- * @author lost
- */
 public class MobileDataContext
 {
   private static InitialContext initialContext;
@@ -64,22 +56,12 @@ public class MobileDataContext
     return (String) getMobileDataContext().lookup("DatabaseSID");
   }
 
-  /**
-   * @return
-   * @throws NamingException
-   * @deprecated nach dem Login eine eigene Projektseite mit der Auswahl für Projekt und Planvariante (ifcaDatabase.jsp)
-   */
   @Deprecated
   public static Long getProId() throws NamingException
   {
     return (Long) getMobileDataContext().lookup("PRO_ID");
   }
 
-  /**
-   * @return
-   * @throws NamingException
-   * @deprecated nach dem Login eine eigene Projektseite mit der Auswahl für Projekt und Planvariante (ifcaDatabase.jsp)
-   */
   public static String getPlvTyp() throws NamingException
   {
     return (String) getMobileDataContext().lookup("PLV_TYP");

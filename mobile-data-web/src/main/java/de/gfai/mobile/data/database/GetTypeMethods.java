@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package de.gfai.mobile.data.database;
 
 import de.gfai.infocable.database.IfcaDatabase;
@@ -17,10 +13,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Objects;
 
-/**
- *
- * @author lost
- */
 public class GetTypeMethods
 {
   public static void selectTypes(IfcaDatabase ifcaDatabase, PrintWriter out, String auswahltyp) throws ServletException

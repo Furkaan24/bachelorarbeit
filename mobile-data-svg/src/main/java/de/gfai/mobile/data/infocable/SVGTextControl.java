@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.infocable;
 
 import de.gfai.infocable.geom.app.options.model.PortInstanceTextScale;
@@ -9,10 +5,6 @@ import de.gfai.infocable.geom.app.options.model.PortInstanceTextType;
 import de.gfai.infocable.model.constants.StructureConstants;
 import javax.naming.NamingException;
 
-/**
- *
- * @author lost
- */
 public interface SVGTextControl
 {
   String getAppName() throws NamingException;

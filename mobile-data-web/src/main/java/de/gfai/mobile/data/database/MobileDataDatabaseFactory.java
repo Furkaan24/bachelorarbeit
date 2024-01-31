@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package de.gfai.mobile.data.database;
 
 import de.gfai.core.database.Database;
@@ -13,10 +9,6 @@ import java.util.Base64;
 import java.util.Objects;
 import javax.naming.NamingException;
 
-/**
- *
- * @author lost
- */
 class MobileDataDatabaseFactory implements DatabaseListener
 {
   private final String userName;

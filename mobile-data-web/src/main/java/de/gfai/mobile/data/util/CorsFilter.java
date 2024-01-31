@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package de.gfai.mobile.data.util;
 
 import jakarta.servlet.Filter;
@@ -10,10 +6,7 @@ import jakarta.servlet.FilterConfig;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpFilter;
 import java.io.IOException;
-/**
-*
-* @author Muhsen
-*/
+
 @WebFilter("/*")
 public class CorsFilter extends HttpFilter implements Filter
 {
@@ -33,5 +26,4 @@ public class CorsFilter extends HttpFilter implements Filter
 
     public void destroy() {}
 
-    //public CorsFilter() {
 }

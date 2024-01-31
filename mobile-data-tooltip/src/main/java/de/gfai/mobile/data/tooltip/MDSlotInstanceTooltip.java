@@ -13,10 +13,6 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author lost
- */
 class MDSlotInstanceTooltip extends MDAbstractTooltip<SlotInstance>
 {
   MDSlotInstanceTooltip(IfcaDatabase databaseSupplier)

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package de.gfai.mobile.data.info.report;
 
 import de.gfai.core.app.reports.ReportParameter;
@@ -24,16 +20,6 @@ import net.sf.jasperreports.export.SimpleExporterInput;
 import net.sf.jasperreports.export.SimpleHtmlExporterOutput;
 import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
 
-
-
-
-
-
-
-/**
- *
- * @author lost
- */
 public interface JasperReport extends IfcaDatabaseCompound
 {
   default byte[] htmlExport(long id) throws Throwable

@@ -9,10 +9,6 @@ import de.gfai.core.util.debug.DebugUtil;
 import de.gfai.infocable.database.IfcaDatabase;
 import de.gfai.infocable.model.catalog.Pin;
 
-/**
- *
- * @author lost
- */
 class MDPinTooltip extends MDAbstractTooltip<Pin>
 {
   MDPinTooltip(IfcaDatabase ifcaDatabase)

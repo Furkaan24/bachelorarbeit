@@ -18,10 +18,6 @@ import de.gfai.infocable.modules.signalpath.model.SwgNode;
 import java.util.Objects;
 import java.util.function.Supplier;
 
-/**
- *
- * @author lost
- */
 public class MDInstanceSupplierTooltip implements Tooltip<InstanceSupplier<?>>
 {
   private final IfcaDatabase databaseSupplier;

@@ -3,7 +3,6 @@ import './App.css';
 import { Route, Routes, useNavigate, useLocation, BrowserRouter } from 'react-router-dom';
 import Setting from './components/Setting';
 import Contact from './components/Contact';
-import Details from './components/Details';
 import Search from './components/search';
 import Patch from './components/Patch';
 import Header from './components/Header';

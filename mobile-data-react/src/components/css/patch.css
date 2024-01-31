@@ -25,26 +25,24 @@
 }
 
 .ports-row ,.signalWeg-row,.endknoten-row,.produkte-row {
-    display: flex; /* Setzt die Port-Container nebeneinander */
+    display: flex;
      width: -10px;
      background-color: #ecf0f1;
 }
 
 .port{
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
-     /* Zentriert die Elemente horizontal */
+    flex-direction: column;
      height: 0px;
      padding-bottom: 0px;
      background-color: #ecf0f1;
 }
 
 .Endknoten{
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
-     /* Zentriert die Elemente horizontal */
+    flex-direction: column; 
      width: 100px;
      max-height: 2px;
      height: 20px;
@@ -52,63 +50,60 @@
 }
 
 .signalWeg {
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
-     /* Zentriert die Elemente horizontal */
+    flex-direction: column;
      width: 100px;
     height: 40px;
     background-color: #ecf0f1;
 }
 
 .port,.signalWeg h3,.Endknoten {
-    margin-bottom: 20px; /* Abstand zum Eingabefeld */
+    margin-bottom: 20px;
     font-size: 10px;
     background-color: #ecf0f1;
 }
 
 .patch-page input {
-    padding: 5px 5px; /* Innenabstand des Eingabefelds */
-    border: 2px solid #ccc; /* Graue Umrandung */
-    border-radius: 4px; /* Abgerundete Ecken */
+    padding: 5px 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
     width: 100px;
     background-color: #ecf0f1;
 }
 
 .signalWeg-header {
-    display: flex;        /* Setzt die Elemente horizontal */
-    align-items: center;  /* Zentriert die Elemente vertikal */
-    margin-bottom: 0px; /* Abstand zum Eingabefeld */
+    display: flex;
+    align-items: center; 
+    margin-bottom: 0px;
     background-color: #ecf0f1;
 }
 
 .signalWeg-header h3 {
-    margin-right: 20px; /* Abstand zum Radio-Button */
+    margin-right: 20px;
     background-color: #ecf0f1;
 }
 
 .produkte{
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
-     /* Zentriert die Elemente horizontal */
+    flex-direction: column;
      background-color: #ecf0f1;
 }
 
 .long-size{
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
-     /* Zentriert die Elemente horizontal */
+    flex-direction: column; 
      background-color: #ecf0f1;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-weight: bold;
 }
 
 .name{
-    flex: 1; /* Jeder Port nimmt die gleiche Breite ein */
+    flex: 1;
     display: flex;
-    flex-direction: column; /* Setzt die Elemente vertikal */
+    flex-direction: column;
     background-color: #ecf0f1;
 }
 
