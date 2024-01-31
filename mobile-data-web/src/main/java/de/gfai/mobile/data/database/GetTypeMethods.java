@@ -127,7 +127,7 @@ public class GetTypeMethods
 
   public static void selectPortInstancesWithPrefix(IfcaDatabase ifcaDatabase, PrintWriter out, String prefix) throws SQLException, IOException
   {
-    String sql = ifcaDatabase.prepareSql("select POI_ID, POI_NAME from INFOCABLE.POI~ where POI_ID LIKE '" + prefix + "%' order by POI_NAME");
+    String sql = ifcaDatabase.prepareSql("select POI_ID, POI_NAME from INFOCABLE.POI~ where POI_NAME LIKE '" + prefix + "%' and poi_lage = 'v' order by POI_NAME");
 
     try (Statement s = ifcaDatabase.createStatement(); ResultSet rs = s.executeQuery(sql)) {
         while (rs.next()) {

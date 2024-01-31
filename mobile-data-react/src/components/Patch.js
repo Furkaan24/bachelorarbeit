@@ -31,7 +31,8 @@ function Patch() {
           const responseCableLength = await fetch(`http://localhost:8080/mobile-data-web/importcable?poiid1=${poiid1}&poiid2=${poiid2}`);
           const cableLengthData = await responseCableLength.json();
           const calculatedCableLength = cableLengthData.cablelength;
-          setCableLength(calculatedCableLength);
+          const roundedCableLength = parseFloat(calculatedCableLength).toFixed(2);
+          setCableLength(roundedCableLength);
 
           const responseCableData = await fetch(`http://localhost:8080/mobile-data-web/importcable?poiid1=${poiid1}&poiid2=${poiid2}&cablelength=${calculatedCableLength}`);
           const cableData = await responseCableData.json();
@@ -282,7 +283,7 @@ function Patch() {
                         }}
                       onChange={(e) => {
                           handleDropdownChange(e);
-                          handleCableChange(e); // Call the new function on cable change
+                          handleCableChange(e);
                         }}
                       >
                       <option></option>

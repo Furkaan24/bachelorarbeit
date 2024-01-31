@@ -34,21 +34,14 @@ public class RackSVGControl implements SVGControl
   private final String webAppURL;
   private final String onClickJavaScript;
 
-  public RackSVGControl(String webAppURL) {
-        this.webAppURL = webAppURL;
-        this.onClickJavaScript = String.format(
-            "function %s {" +
-            "   var className = evt.currentTarget.getAttribute('class');" +
-            "   if (className === 'PortInstance') {" +
-            "       var portId = evt.currentTarget.id;" +
-            "       var portName = evt.currentTarget.name;" +
-            "       console.log('PortInstance clicked. Port ID: ' + portId);" +
-            "       alert('Port ID: ' + portId);" +
-            "   }" +
-            "       var url = '%s/info?type=' + className + '&id=' + evt.currentTarget.id;" +
-            "       window.open(url);" +
-            "   }", ON_CLICK_JS, webAppURL);
-    }
+  public RackSVGControl(String webAppURL)
+  {
+    this.webAppURL = webAppURL;
+    this.onClickJavaScript = String.format("function %s{"
+                                           + " var url='%s/info?type=' + evt.currentTarget.getAttribute('class') + '&id=' + evt.currentTarget.id;"
+                                           + " window.open(url);"
+                                           + "}", ON_CLICK_JS, webAppURL);
+  }
 
   @Override
   public String getAppName() throws NamingException
