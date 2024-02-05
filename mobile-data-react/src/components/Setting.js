@@ -77,7 +77,7 @@ function Setting({
   }, [isPpvVisibility, isInstanceTextObject, isInstanceTextPort, isFreeTextObject, isFreeTextPort, isRuleTextObject, isRuleTextPort]);
 
   return (
-    <Draggable>
+    <Draggable cancel=".checkbox1, .checkbox2, .checkbox3, .checkbox4, .checkbox5, .checkbox6, .radio-input1, .radio-input2, .radio-input3, .button">
       <div className="draggable-dialog">
         <div className="layout">
           <h1>Beschreibung:</h1>
@@ -179,7 +179,7 @@ function Setting({
             <input type="radio" name="patchChoice" value="true" onChange={handleRadio} checked={isPpvVisibility} />
           </div>
 
-          <button style={{ backgroundColor: "green", color: "white" }} onClick={handleNeuVisualisieren}>
+          <button className="button" style={{ backgroundColor: "green", color: "white" }} onClick={handleNeuVisualisieren}>
             Neu Visualisieren
           </button>
         </div>

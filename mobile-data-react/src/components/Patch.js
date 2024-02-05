@@ -162,7 +162,7 @@ function Patch() {
 };
 
   return (
-          <Draggable cancel=".produkte-row, .ports-row, .signalWeg-row, .endknoten-row, .name">
+          <Draggable cancel=".produkte-row, .ports-row, .signalWeg-row, .endknoten-row, .name, .button-search">
             <div className="draggable-dialog">
               <div style={{backgroundColor: "#ecf0f1"}}>
                 <h1 className="patchseiten" style={{marginTop: "-13px", fontSize: "11px", marginBottom: "-26.5px", fontFamily: "Verdana, Geneva, Tahoma, sans-serif"}}>Patchseiten</h1>
