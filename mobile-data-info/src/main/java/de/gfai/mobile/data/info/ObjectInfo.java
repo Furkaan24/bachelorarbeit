@@ -11,10 +11,6 @@ import de.gfai.mobile.data.info.report.Schrankliste;
 import java.sql.SQLException;
 import java.util.Objects;
 
-/**
- *
- * @author lost
- */
 public class ObjectInfo implements PredicateIfcaObjects
 {
   private static final String SMARTPHONESCALE = "<meta name='viewport' content='width=device-width, initial-scale=1'>";

@@ -15,10 +15,12 @@ import java.util.Objects;
 
 public class GetTypeMethods
 {
+  // Method to select types based on a given criteria
   public static void selectTypes(IfcaDatabase ifcaDatabase, PrintWriter out, String auswahltyp) throws ServletException
   {
     try
     {
+       // Check the type and call appropriate methods
       if (Objects.equals(auswahltyp, Rack.class.getSimpleName()))
         selectZonesAndRacks(ifcaDatabase, out);
       else if (Objects.equals(auswahltyp, Instance.class.getSimpleName()))
@@ -28,6 +30,7 @@ public class GetTypeMethods
       else if (Objects.equals(auswahltyp, Zone.class.getSimpleName()))
         selectZones(ifcaDatabase, out);
       else{
+        // Handle unexpected type
         System.err.println("Unexpected auswahltyp value: " + auswahltyp);
         throw new IllegalArgumentException(auswahltyp);
       }
@@ -38,16 +41,14 @@ public class GetTypeMethods
     }
   }
 
-  private static void selectZonesAndRacks(IfcaDatabase ifcaDatabase, PrintWriter out) throws SQLException, IOException
+  // Method to select zones and racks
+private static void selectZonesAndRacks(IfcaDatabase ifcaDatabase, PrintWriter out) throws SQLException, IOException
   {
+    // Prepare SQL statement to select zone name, kti Id and kti name
     String sql = ifcaDatabase.prepareSql("select z.ZON_NAME, i.KTI_ID, i.KTI_NAME "
-                                         + "from INFOCABLE.ZONEN~ z, INFOCABLE.TKC_ZON~ tkc,"
-                                         + "     INFOCABLE.NETZKN~ n, INFOCABLE.KTI~ i,"
-                                         + "     INFOCABLE.KT_ST ks,  INFOCABLE.STRUKTUR s "
-                                         + "where s.CHILD in ('SCHRANK', 'GESTELL') and s.ST_ID=ks.ST_ID "
-                                         + "and ks.KT_ID=i.KT_ID and i.KTI_ID=n.KTI_ID "
-                                         + "and n.TKN_ID=tkc.TKN_ID and tkc.ZON_ID=z.ZON_ID "
-                                         + "and z.ZON_NAME like 'D%'"
+                                         + "from INFOCABLE.ZONEN~ z, "
+                                         + "INFOCABLE.KTI~ i,"
+                                         + "where ... " 
                                          + "order by z.ZON_NAME, i.KTI_NAME");
     try (Statement s = ifcaDatabase.createStatement(); ResultSet rs = s.executeQuery(sql))
     {
@@ -55,32 +56,32 @@ public class GetTypeMethods
 
       while (rs.next())
       {
+        //check if the zone has changed
         if (!Objects.equals(zoneName, rs.getString(1)))
         {
+          //close previous optgroup tag if zone has changed
           if (Objects.nonNull(zoneName))
             out.println("</optgroup>");
+          // Update zoneName and start new optgroup for the zone
           zoneName = rs.getString(1);
           out.println("<optgroup label='ZONE: " + zoneName + "'>");
         }
-
+        //write option tag for the rack within the current zone
         out.println("<option value='" + rs.getLong(2) + "'>" + rs.getString(3) + "</option>");
       }
-
+      //close the last optgroup tag if there was a zone
       if (Objects.nonNull(zoneName))
         out.println("</optgroup>");
     }
   }
 
+  // Method to select instances
   private static void selectInstances(IfcaDatabase ifcaDatabase, PrintWriter out) throws SQLException, IOException
   {
     String sql = ifcaDatabase.prepareSql("select z.ZON_NAME, i.KTI_ID, i.KTI_NAME, s.CHILD "
                                          + "from INFOCABLE.ZONEN~ z, INFOCABLE.TKC_ZON~ tkc,"
-                                         + "     INFOCABLE.NETZKN~ n, INFOCABLE.KTI~ i,"
-                                         + "     INFOCABLE.STRUKTUR s, INFOCABLE.KT_ST ks, INFOCABLE.KT_EB ke "
-                                         + "where ke.EB_ID=1 and ke.KT_ID=ks.KT_ID "
-                                         + "and ks.ST_ID=s.ST_ID and ks.KT_ID=i.KT_ID "
-                                         + "and i.KTI_ID=n.KTI_ID and n.TKN_ID=tkc.TKN_ID "
-                                         + "and tkc.ZON_ID=z.ZON_ID "
+                                         + "INFOCABLE.KTI~ i,"
+                                         + "where ... "
                                          + "order by z.ZON_NAME, s.CHILD, i.KTI_NAME");
     try (Statement s = ifcaDatabase.createStatement(); ResultSet rs = s.executeQuery(sql))
     {
@@ -104,6 +105,7 @@ public class GetTypeMethods
     }
   }
 
+  // Method to select port instances
   private static void selectPortInstances(IfcaDatabase ifcaDatabase, PrintWriter out) throws SQLException, IOException
   {
     String sql = ifcaDatabase.prepareSql("select POI_ID, POI_NAME from INFOCABLE.POI~ order by POI_NAME");
@@ -117,6 +119,7 @@ public class GetTypeMethods
     }
   }
 
+  // Method to select port instances with a given prefix
   public static void selectPortInstancesWithPrefix(IfcaDatabase ifcaDatabase, PrintWriter out, String prefix) throws SQLException, IOException
   {
     String sql = ifcaDatabase.prepareSql("select POI_ID, POI_NAME from INFOCABLE.POI~ where POI_NAME LIKE '" + prefix + "%' and poi_lage = 'v' order by POI_NAME");
@@ -128,6 +131,7 @@ public class GetTypeMethods
     }
   }
 
+  // Method to select zones
   private static void selectZones(IfcaDatabase ifcaDatabase, PrintWriter out) throws SQLException, IOException
   {
     String sql = ifcaDatabase.prepareSql("select ZON_ID, ZON_NAME from INFOCABLE.ZONEN~ order by ZON_NAME");

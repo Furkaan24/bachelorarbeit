@@ -12,11 +12,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- *
- * @author Daniel
- */
-// Tutorial: http://zxing.org/w/docs/javadoc/index.html
 public class QRCodeGenerator
 {
   private QRCodeGenerator()
